@@ -14,6 +14,10 @@ module.exports = {
     extend: {
       fontFamily: {
       burtons: "burtons",
+      JoseThin:"JoseThin",
+      JoseLight:"JoseLight",
+      JoseBold:"JoseBold",
+      JoseRegular:"JoseRegular"
       },
     },
   },

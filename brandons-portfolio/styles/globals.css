@@ -33,3 +33,23 @@ a {
   font-family: "burtons";
   src:url("../public/Burtons.otf")
 }
+
+@font-face {
+  font-family: "JoseThin";
+  src: url("../public/JosefinSans-Thin.ttf");
+}
+
+@font-face {
+  font-family: "JoseBold";
+  src: url("../public/JosefinSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "JoseLight";
+  src: url("../public/JosefinSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "JoseRegular";
+  src: url("../public/JosefinSans-Regular.ttf");
+}

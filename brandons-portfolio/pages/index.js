@@ -3,10 +3,10 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillYoutube,
+  AiFillGithub,
 } from "react-icons/ai";
 import Image from "next/image";
-import deved from "../public/dev-ed-wave.png";
+import devbrandon from "../public/dev-brandon.jpg";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
@@ -16,7 +16,9 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import brandonlogo from "../public/logo2.png"
 import {useState} from "react";
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -30,18 +32,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
+      <main className=" bg-gray-200 px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className=" min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons">Deployedbyed</h1>
+          <nav className="py-10 flex justify-between">
+            <Image src={brandonlogo} width={350} height={350} className="-m-5" />
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=" cursor-pointer text-xl" />
               </li>
               <li>
                 <a
-                  className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="#"
+                  className=" bg-gradient-to-r from-cyan-500 to-blue-400 text-white px-4 py-2 rounded-md ml-8"
+                  href="https://drive.google.com/file/d/1vVDFW8Amj6eg1LDVXHx4uIGLU02aGQRC/view"
                 >
                   Resume
                 </a>
@@ -49,43 +51,43 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mb-6 -mt-12 overflow-hidden md:h-96 md:w-96">
+            <Image src={devbrandon} layout="fill" objectFit="cover" alt="icwwons" />
+          </div>
+            <h2 className="font-JoseBold text-5xl py-2 text-blue-500 font-medium md:text-7xl">
               Brandon Sandoval
             </h2>
-            <h3 className="text-2xl py-2 md:text-3xl">
-              Developer and designer.
+            <h3 className="font-JoseRegular text-2xl py-2 md:text-4xl">
+              Full Stack Software Engineer.
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            <p className=" font-JoseLight text-xl py-5 leading-8 text-black md:text-2xl max-w-xl mx-auto">
+            First generation bilingual junior full stack engineer with experience in HTML, CSS, JavaScript, React, and Node.js. I have an understanding of both front-end and back-end development, and I am comfortable working with a wide range of tools and technologies to create cohesive, high-performance software solutions.
+
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+          <div className="text-7xl flex justify-center gap-16 py-3 text-gray-600">
+            <a className="hover:text-blue-500" href="https://twitter.com/mkdirbrandon">
             <AiFillTwitterCircle />
+            </a>
+            <a className="hover:text-blue-500" href="https://www.linkedin.com/in/brandon-s-877148a8/">
             <AiFillLinkedin />
-            <AiFillYoutube />
-          </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-            <Image src={deved} layout="fill" objectFit="cover" alt="icwwons" />
+            </a>
+            <a className="hover:text-blue-500" href="https://github.com/brand310">
+            <AiFillGithub />
+            </a>
           </div>
         </section>
 
+
         <section>
           <div>
-            <h3 className="text-3xl py-1">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            <h3 className=" font-JoseRegular text-3xl py-1">About Me</h3>
+            <p className=" font-JoseRegular text-md py-2 leading-8 text-gray-800">
+              I am particularly skilled in using <span className=" text-blue-600 font-JoseBold">React</span> to build responsive, dynamic user interfaces, and I am well-versed in the latest trends and best practices in front-end development. I also have experience with using <span className="text-blue-600 font-JoseBold">Node.js</span> to build server-side applications, and I am comfortable using tools like Express.js and MongoDB to build server-side applications.
+
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            <p className=" font-JoseRegular text-md py-2 leading-8 text-gray-800">
+            I am a strong collaborator and communicator, and I enjoy working with teams to create solutions. Whether I am working on a small personal project or contributing to a larger team effort. I have always loved talking to people and giving full presentation on projects that I can be proud of. I love learning and I’m always seeking out new opportunities to expand my skills and knowledge, whether that means learning a new programming language or mastering a new tool or framework.
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -151,6 +153,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+      
         <section>
           <div>
             <h3 className="text-3xl py-1">Portfolio</h3>
