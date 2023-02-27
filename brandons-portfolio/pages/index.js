@@ -65,14 +65,14 @@ export default function Home() {
 
             </p>
           </div>
-          <div className="text-7xl flex justify-center gap-16 py-3 text-gray-600">
-            <a className="hover:text-blue-500" href="https://twitter.com/mkdirbrandon">
+          <div className="text-6xl flex justify-center gap-16 py-3 -mt-10 mb-10 text-gray-600">
+            <a className="hover:text-blue-500 duration-300 ease-in-out" href="https://twitter.com/mkdirbrandon">
             <AiFillTwitterCircle />
             </a>
-            <a className="hover:text-blue-500" href="https://www.linkedin.com/in/brandon-s-877148a8/">
+            <a className="hover:text-blue-500 duration-300 ease-in-out" href="https://www.linkedin.com/in/brandon-s-877148a8/">
             <AiFillLinkedin />
             </a>
-            <a className="hover:text-blue-500" href="https://github.com/brand310">
+            <a className="hover:text-blue-500 duration-300 ease-in-out" href="https://github.com/brand310">
             <AiFillGithub />
             </a>
           </div>
