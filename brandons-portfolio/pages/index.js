@@ -9,14 +9,14 @@ import Image from "next/image";
 import devbrandon from "../public/dev-brandon.jpg";
 import design from "../public/design.png";
 import code from "../public/code.png";
-import consulting from "../public/consulting.png";
+import consulting from "../public/chat-front-color.png";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
-import brandonlogo from "../public/logo2.png"
+import brandonlogo from "../public/brandonlogo.png"
 import {useState} from "react";
 
 
@@ -32,14 +32,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" bg-gray-200 px-10 md:px-20 lg:px-40 dark:bg-gray-900">
+      <main className=" bg-gray-800 px-10 md:px-20 lg:px-40">
         <section className=" min-h-screen">
           <nav className="py-10 flex justify-between">
             <Image src={brandonlogo} width={350} height={350} className="-m-5" />
             <ul className="flex items-center">
-              <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=" cursor-pointer text-xl" />
-              </li>
               <li>
                 <a
                   className=" bg-gradient-to-r from-cyan-500 to-blue-400 text-white px-4 py-2 rounded-md ml-8"
@@ -57,15 +54,15 @@ export default function Home() {
             <h2 className="font-JoseBold text-5xl py-2 text-blue-500 font-medium md:text-7xl">
               Brandon Sandoval
             </h2>
-            <h3 className="font-JoseRegular text-2xl py-2 md:text-4xl">
+            <h3 className="font-JoseRegular text-gray-200 text-2xl py-2 md:text-4xl">
               Full Stack Software Engineer.
             </h3>
-            <p className=" font-JoseLight text-xl py-5 leading-8 text-black md:text-2xl max-w-xl mx-auto">
+            <p className=" font-JoseLight text-xl py-5 leading-8 text-gray-300 md:text-2xl max-w-xl mx-auto">
             First generation bilingual junior full stack engineer with experience in HTML, CSS, JavaScript, React, and Node.js. I have an understanding of both front-end and back-end development, and I am comfortable working with a wide range of tools and technologies to create cohesive, high-performance software solutions.
 
             </p>
           </div>
-          <div className="text-6xl flex justify-center gap-16 py-3 -mt-10 mb-10 text-gray-600">
+          <div className="text-6xl flex justify-center gap-16 py-3 -mt-10 mb-10 text-gray-200">
             <a className="hover:text-blue-500 duration-300 ease-in-out" href="https://twitter.com/mkdirbrandon">
             <AiFillTwitterCircle />
             </a>
@@ -81,17 +78,17 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className=" font-JoseRegular text-3xl py-1">About Me</h3>
-            <p className=" font-JoseRegular text-md py-2 leading-8 text-gray-800">
+            <h3 className=" font-JoseRegular text-gray-200  text-3xl py-1">About Me</h3>
+            <p className=" font-JoseRegular text-gray-300 text-md py-2 leading-8">
               I am particularly skilled in using <span className=" text-blue-600 font-JoseBold">React</span> to build responsive, dynamic user interfaces, and I am well-versed in the latest trends and best practices in front-end development. I also have experience with using <span className="text-blue-600 font-JoseBold">Node.js</span> to build server-side applications, and I am comfortable using tools like Express.js and MongoDB to build server-side applications.
 
             </p>
-            <p className=" font-JoseRegular text-md py-2 leading-8 text-gray-800">
-            I am a strong collaborator and communicator, and I enjoy working with teams to create solutions. Whether I am working on a small personal project or contributing to a larger team effort. I have always loved talking to people and giving full presentation on projects that I can be proud of. I love learning and I’m always seeking out new opportunities to expand my skills and knowledge, whether that means learning a new programming language or mastering a new tool or framework.
+            <p className=" font-JoseRegular text-md py-2 leading-8 text-gray-300 ">
+            I am a strong collaborator and communicator, and I enjoy working with teams to create solutions. Whether I am working on a small personal project or contributing to a larger team effort. I have always loved talking to people and giving full presentation on projects that I can be proud of. I love learning and I'm always seeking out new opportunities to expand my skills and knowledge, whether that means learning a new programming language or mastering a new tool or framework.
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg shadow-gray-900 p-10 rounded-xl my-10">
               <Image
                 className="mx-auto"
                 src={design}
@@ -99,19 +96,19 @@ export default function Home() {
                 height={100}
                 alt="icons"
               />
-              <h3 className=" text-lg font-medium pt-8 pb-2">
+              <h3 className=" text-gray-100 text-lg font-medium pt-8 pb-2">
                 Beautiful Designs
               </h3>
-              <p className="py-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <p className="py-2 text-gray-300">
+              Creating elegant designs suited for your needs following core
+              design theory.
               </p>
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-200 py-1">Photoshop</p>
+              <p className="text-gray-200 py-1">Canva</p>
+              <p className="text-gray-200 py-1">Figma</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg shadow-gray-900 p-10 rounded-xl my-10">
               <Image
                 className="mx-auto"
                 src={consulting}
@@ -119,19 +116,18 @@ export default function Home() {
                 height={100}
                 alt="icons"
               />
-              <h3 className=" text-lg font-medium pt-8 pb-2">
-                Beautiful Designs
+              <h3 className="text-gray-100 text-lg font-medium pt-8 pb-2">
+                Communication
               </h3>
-              <p className="py-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <p className="py-2 text-gray-300">
+              Strong communication skills, allowing me to effectively convey ideas and messages.
               </p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <h4 className="py-4 text-teal-600">Great with</h4>
+              <p className="text-gray-200 py-1">Microsoft Teams</p>
+              <p className="text-gray-200 py-1">Slack</p>
+              <p className="text-gray-200 py-1">Zoom</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg shadow-gray-900 p-10 rounded-xl my-10">
               <Image
                 className="mx-auto"
                 src={code}
@@ -139,17 +135,16 @@ export default function Home() {
                 height={100}
                 alt="icons"
               />
-              <h3 className=" text-lg font-medium pt-8 pb-2">
-                Beautiful Designs
+              <h3 className="text-gray-100 text-lg font-medium pt-8 pb-2">
+                Code
               </h3>
-              <p className="py-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <p className="py-2 text-gray-300">
+              I am skilled in coding, with the ability to write efficient, well-structured code to create designs.
               </p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <h4 className="py-4 text-teal-600">Languages im certified in</h4>
+              <p className="text-gray-200 py-1">JavaScript</p>
+              <p className="text-gray-200 py-1">React</p>
+              <p className="text-gray-200 py-1">NodeJS</p>
             </div>
           </div>
         </section>
@@ -157,18 +152,12 @@ export default function Home() {
       
         <section>
           <div>
-            <h3 className="text-3xl py-1">Portfolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            <h3 className="text-gray-100 text-3xl py-1">Portfolio</h3>
+            <p className="text-gray-200 text-md py-2 leading-8">
+            With experience in web design, I have a passion for creating visually stunning and user-friendly websites. With React, I possess a deep understanding of web technologies and design principles, enabling me to build websites that are both aesthetically pleasing and highly functional. With a strong focus on client satisfaction and user experience, I strive to deliver the best possible outcomes for all web design projects.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            <p className="text-md py-2 leading-8 text-gray-200">
+              The following will are examples of web designs, ads, and posters for all sorts of clients including schools, cleaning businesses and freelancers:
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
