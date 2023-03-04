@@ -157,7 +157,7 @@ export default function Home() {
             With experience in web design, I have a passion for creating visually stunning and user-friendly websites. With React, I possess a deep understanding of web technologies and design principles, enabling me to build websites that are both aesthetically pleasing and highly functional. With a strong focus on client satisfaction and user experience, I strive to deliver the best possible outcomes for all web design projects.
             </p>
             <p className="text-md py-2 leading-8 text-gray-200">
-              The following will are examples of web designs, ads, and posters for all sorts of clients including schools, cleaning businesses and freelancers:
+              The following are examples of web designs for all sorts of clients including schools, cleaning businesses and freelance work:
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
