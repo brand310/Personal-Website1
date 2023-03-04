@@ -49,7 +49,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10">
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mb-6 -mt-12 overflow-hidden md:h-96 md:w-96">
-            <Image src={devbrandon} layout="fill" objectFit="cover" alt="icwwons" />
+            <Image src={devbrandon} layout="fill" objectFit="cover" alt="icons" />
           </div>
             <h2 className="font-JoseBold text-5xl py-2 text-blue-500 font-medium md:text-7xl">
               Brandon Sandoval
