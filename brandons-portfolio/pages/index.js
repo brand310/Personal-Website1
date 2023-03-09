@@ -191,8 +191,8 @@ export default function Home() {
                   Languages I'm certified in:
                 </h4>
                 <p className="text-gray-200 py-1 font-JoseLight">JavaScript</p>
-                <p className="text-gray-200 py-1 font-JoseLight">React</p>
-                <p className="text-gray-200 py-1 font-JoseLight">NodeJS</p>
+                <p className="text-gray-200 py-1 font-JoseLight">CSS</p>
+                <p className="text-gray-200 py-1 font-JoseLight">Python</p>
               </div>
             </div>
           </section>
