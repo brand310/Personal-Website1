@@ -8,7 +8,7 @@ import {
   AiOutlinePhone,
 } from "react-icons/ai";
 import Image from "next/image";
-import devbrandon from "../public/dev-brandon.jpg";
+import devbrandon from "../public/dev-brandon.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/chat-front-color.png";
@@ -53,13 +53,14 @@ export default function Home() {
                 </li>
               </ul>
             </nav>
-            <div className="text-center p-10">
-              <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-64 h-64 mb-6 overflow-hidden mt-1 md:h-96 md:w-96">
+            <div className="text-center p-5">
+              <div className="relative mx-auto bg-gradient-to-b from-gray-200 rounded-full w-64 h-64 mb-6 overflow-hidden mt-1 md:h-96 md:w-96">
                 <Image
                   src={devbrandon}
                   layout="fill"
                   objectFit="cover"
                   alt="icons"
+                  className="mt-1"
                 />
               </div>
               <h2 className="font-JoseBold text-5xl py-2 text-blue-500 font-medium md:text-7xl">
