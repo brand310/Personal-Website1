@@ -54,13 +54,13 @@ export default function Home() {
               </ul>
             </nav>
             <div className="text-center p-5">
-              <div className="relative mx-auto bg-gradient-to-b from-gray-200 rounded-full w-64 h-64 mb-6 overflow-hidden mt-1 md:h-96 md:w-96">
+              <div className="relative mx-auto bg-gradient-to-b from-gray-500 rounded-full w-64 h-64 mb-6 overflow-hidden md:h-96 md:w-96">
                 <Image
                   src={devbrandon}
-                  layout="fill"
+                  layout="none"
                   objectFit="cover"
                   alt="icons"
-                  className="mt-1"
+                  className="-mt-3 ml-6 md:-mt-4"
                 />
               </div>
               <h2 className="font-JoseBold text-5xl py-2 text-blue-500 font-medium md:text-7xl">
