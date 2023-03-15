@@ -293,8 +293,11 @@ export default function Home() {
               </div>
               <div>
                 <p className="pt-5">All Rights Reserved © 2023</p>
+                <p>Profile art work done by <a className="text-blue-500 underline"
+                    href="https://anthonycerullo.carrd.co/"
+                  >Anthony Cerullo.</a> </p> 
                 <p>
-                  Built by{" "}
+                  Website built by{" "}
                   <a
                     className="text-blue-500 underline"
                     href="https://www.brandonsandoval.com/"
@@ -302,6 +305,7 @@ export default function Home() {
                     me.
                   </a>
                 </p>
+               
               </div>
             </div>
           </section>
