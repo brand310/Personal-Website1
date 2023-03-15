@@ -106,20 +106,20 @@ export default function Home() {
                 About Me
               </h3>
               <p className=" font-JoseRegular text-gray-300 text-md py-2 leading-8">
-                Having skills in using{" "}
+                Skilled in using{" "}
                 <span className=" text-blue-600 font-JoseBold">React</span> to
                 build responsive, dynamic user interfaces, and I am well-versed
                 in the latest trends and best practices in front-end
                 development. I also have experience with using{" "}
                 <span className="text-blue-600 font-JoseBold">Node.js</span> to
-                build server-side applications, and I am comfortable using tools
-                like Express.js and MongoDB to build server-side applications.
+                build server-side applications, and am comfortable using tools
+                like Express.js and MongoDB to maintain servers and use proper frameworks.
               </p>
               <p className=" font-JoseRegular text-md py-2 leading-8 text-gray-300 ">
-                As a strong collaborator and communicator, and I enjoy working
+                As a strong collaborator and communicator, I enjoy working
                 with teams to create solutions. Whether I am working on a small
                 personal project or contributing to a larger team effort. I have
-                always loved talking to people and giving full presentation on
+                always loved talking to people and giving full presentations on
                 projects that I can be proud of. I love learning and I'm always
                 seeking out new opportunities to expand my skills and knowledge,
                 whether that means learning a new programming language or
@@ -280,8 +280,7 @@ export default function Home() {
             <div className="text-gray-200 text-md py-6 leading-8 ">
               <h3 className="text-4xl py-4">Lets get started!</h3>
               <p className="py-5">
-                If you have any interest in hiring me and or questions about me,
-                my work, or my journey don't hesitate to reach out!
+              If you are interested in hiring me or have any questions about my work, don't hesitate to reach out!
               </p>
               <div className="flex gap-2">
                 <AiOutlineMail className="mt-2.5 " />
