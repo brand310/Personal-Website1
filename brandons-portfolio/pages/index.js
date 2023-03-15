@@ -30,10 +30,16 @@ export default function Home() {
           <title>Brandon's Portfolio</title>
           <meta name="description" content="Brandon Sandoval's portfolio website." />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta property="og:title" content="Brandon's Portfolio"/>
-          <meta property="og:type" content="website"/>
-          <meta property="og:image" content="https://imgur.com/j7tzovB"/>
-          <meta property="og:url" content="https://brandonsandoval.com"/>
+          <meta charset="UTF-8" />
+          <meta property="og:site_name" content="Brandon Sandoval" />
+          <meta property="og:title" content="Brandon's Portfolio" />
+          <meta property="og:type" content="website" />
+          <meta property="og:image" content="https://imgur.com/j7tzovB" />
+          <meta property="og:url" content="https://brandonsandoval.com" />
+          <meta property="og:image:width" content="1280" />
+          <meta property="og:image:height" content="800" />
+          <meta property="og:description" content="Brandon Sandoval's portfolio website." />
+
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
