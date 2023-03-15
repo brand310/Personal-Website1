@@ -281,7 +281,7 @@ export default function Home() {
               <h3 className="text-4xl py-4">Lets get started!</h3>
               <p className="py-5">
                 If you have any interest in hiring me and or questions about me,
-                my work, our my journey don't hesitate to reach out!
+                my work, or my journey don't hesitate to reach out!
               </p>
               <div className="flex gap-2">
                 <AiOutlineMail className="mt-2.5 " />
