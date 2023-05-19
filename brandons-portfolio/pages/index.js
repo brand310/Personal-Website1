@@ -56,7 +56,7 @@ export default function Home() {
                 <li>
                   <a
                     className=" bg-gradient-to-r from-cyan-500 to-blue-400 text-white px-4 py-2 rounded-md ml-8"
-                    href="https://drive.google.com/file/d/1qi16uubx7i1TZM2-XMs9TfhoSb9iRa1D/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1W_dz4xeSkFvw_ExTWfKpZsZXpg-uK0A3/view?usp=sharing"
                   >
                     Resume
                   </a>
